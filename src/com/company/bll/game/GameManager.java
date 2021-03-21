@@ -16,6 +16,7 @@ public class GameManager {
         MonsterAbility sapphireDeflection = new MonsterAbility("SapphireDeflection",10);
         MonsterAbility bulletGems = new MonsterAbility("Bullet Gems",15);
         MonsterAbility diamondThrow = new MonsterAbility("Diamond Throw", 12);
+        //b
 
         //WindMonster abilities.
         MonsterAbility windBlow = new MonsterAbility("Wind Blow",7);
