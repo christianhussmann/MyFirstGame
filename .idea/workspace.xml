@@ -1,44 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ec888ad-8dd0-4616-8007-3c0f0096416a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/be/IMonster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/be/MonsterAbility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/bll/game/GameEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/bll/game/GameManager.java" afterDir="false" />
+    <list default="true" id="0ec888ad-8dd0-4616-8007-3c0f0096416a" name="Default Changelist" comment="added monsters + abilities + started on the game manager.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/CrystalMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/IceMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/LightMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/MagmaMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/MetalMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/be/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/MythicMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/NatureMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/NeutralMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/OceanMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/ShadowMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/be/WindMonster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/MonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/PlayerBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/CrystalMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/IceMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/LightMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/MagmaMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/MetalMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/MythicMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/NatureMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/NeutralMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/OceanMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/ShadowMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/WindMonsterBLLManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/controllers/GameWindowController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/controllers/LoginWindowController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/controllers/StartMenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/controllers/StartWindowController.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +94,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/MyOwnGame" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -141,13 +107,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,8 +143,18 @@
       <workItem from="1616114674951" duration="7000" />
       <workItem from="1616146371738" duration="12887000" />
       <workItem from="1616244925257" duration="2513000" />
-      <workItem from="1616328398689" duration="12180000" />
+      <workItem from="1616328398689" duration="13017000" />
+      <workItem from="1616365036560" duration="272000" />
+      <workItem from="1616365546308" duration="350000" />
     </task>
+    <task id="LOCAL-00001" summary="added monsters + abilities + started on the game manager.">
+      <created>1616364194946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616364194946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,5 +171,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added monsters + abilities + started on the game manager." />
+    <option name="LAST_COMMIT_MESSAGE" value="added monsters + abilities + started on the game manager." />
   </component>
 </project>
