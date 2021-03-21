@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ec888ad-8dd0-4616-8007-3c0f0096416a" name="Default Changelist" comment="" />
+    <list default="true" id="0ec888ad-8dd0-4616-8007-3c0f0096416a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/be/IMonster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/be/MonsterAbility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/bll/game/GameEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/bll/game/GameManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/CrystalMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/IceMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/LightMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/MagmaMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/MetalMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/be/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/MythicMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/NatureMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/NeutralMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/OceanMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/ShadowMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/WindMonster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/MonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/PlayerBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/CrystalMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/IceMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/LightMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/MagmaMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/MetalMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/MythicMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/NatureMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/NeutralMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/OceanMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/ShadowMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/monsters/WindMonsterBLLManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/controllers/GameWindowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/controllers/LoginWindowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/controllers/StartMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/controllers/StartWindowController.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +53,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -24,6 +65,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1podVDUYd7wkjRGk1RYTljdPnqz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -84,6 +126,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -94,6 +137,17 @@
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\bruger\Documents\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +169,29 @@
       <workItem from="1615853403474" duration="3053000" />
       <workItem from="1615884638033" duration="18844000" />
       <workItem from="1615972851160" duration="411000" />
-      <workItem from="1615973277318" duration="834000" />
+      <workItem from="1615973277318" duration="888000" />
+      <workItem from="1616106185620" duration="16000" />
+      <workItem from="1616106299277" duration="2943000" />
+      <workItem from="1616114674951" duration="7000" />
+      <workItem from="1616146371738" duration="12887000" />
+      <workItem from="1616244925257" duration="2513000" />
+      <workItem from="1616328398689" duration="12180000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

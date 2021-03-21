@@ -1,20 +1,34 @@
 package com.company.be;
 
-public class Monster {
+import java.util.ArrayList;
+
+public class Monster implements IMonster {
     private int hp;
     private int maxHp;
     private int lvl;
     private int exp;
+    private String name;
+    private ArrayList<MonsterAbility> getAbilities;
+    private IMonster counterMonster;
 
-    public Monster(int lvl, int hp, int maxHp){
-        setLvl(lvl);
-        setHp(hp);
-        setMaxHp(maxHp);
+
+    public Monster(String name,int lvl, int hp, int maxHp){
+        this.name = name;
+        this.lvl = lvl;
+        this.hp = hp;
+        this.maxHp = maxHp;
         exp = 0;
-
     }
 
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    @Override
+    public String getName() {
+        return name;
+    }
 
     public int getHp() {
         return hp;
@@ -49,4 +63,20 @@ public class Monster {
     }
 
 
+
+    @Override
+    public ArrayList<MonsterAbility> getAbilities() {
+        return getAbilities;
+    }
+
+
+    @Override
+    public IMonster getCounterMonster() {
+        return null;
+    }
+
+    @Override
+    public void setCounterMonster(IMonster counterMonster) {
+
+    }
 }

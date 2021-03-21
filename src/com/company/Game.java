@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.be.*;
+import com.company.bll.game.GameManager;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -17,14 +20,17 @@ public class Game {
     JTextArea mainTextArea;
     int monsterHP;
     String monster, position;
-
+    int enemyMonsterHP;
+    String enemyMonster;
 
     titleScreenHandler tsHandler = new titleScreenHandler();
     choiceHandler cHandler = new choiceHandler();
 
-
     public static void main(String[] args) {
-	    new Game();
+
+        GameManager gm = new GameManager();
+        gm.initializeGame();
+
     }
 
     public Game(){
@@ -161,9 +167,13 @@ public class Game {
         playerSetup();
 
     }
+    public void enemyMonster(){
+        enemyMonsterHP = 15;
+        enemyMonster = "Magmamon";
+    }
 
     public void playerSetup(){
-        monsterHP = 15;
+        monsterHP = 20;
         monster = "Toxinflayer";
         monsterLabelName.setText(monster);
         hpLabelNumber.setText(""+monsterHP);
@@ -243,7 +253,7 @@ public class Game {
 
     public void spitAttack(){
 
-    }g
+    }
 
     public void throwStoneAttack(){
 
@@ -291,7 +301,9 @@ public class Game {
                     switch (yourChoice) {
                         case "c1":
                             tackleAttack();
-                            mainTextArea.setText("fightMonster[0].getName()+\" did \"+fightMonster[1].getName()+\" \"+damage+ \"damage.\");");
+                            mainTextArea.setText("Tackle seem to be effective (You do 4 Damage.)");
+                            enemyMonsterHP = enemyMonsterHP -4;
+
                             break;
                         case "c2":
                             kickAttack();
