@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec888ad-8dd0-4616-8007-3c0f0096416a" name="Default Changelist" comment="added monsters + abilities + started on the game manager.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/be/player/IPlayerSkills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/be/player/IPlayerTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/be/player/PlayerSkills.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/be/player/PlayerTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/be/tool/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/be/tool/Hammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/be/tool/Pickaxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/gui/JavaFXApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/gui/controller/GameViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/gui/view/GameView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/bll/game/SwingAppManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mehmon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyAdventureMMO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/gui/SwingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/IMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/be/monster/IMonster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/be/monster/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/MonsterAbility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/be/monster/MonsterAbility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/be/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/be/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/bll/game/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/bll/game/GameManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -91,15 +111,46 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/MyOwnGame" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/gui" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bruger\IdeaProjects\Mehmon\src\com\company\gui" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bruger\IdeaProjects\Mehmon\src\com\company\gui\view" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.bll.game" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+      <recent name="com.company.gui.controller" />
+      <recent name="com.company.gui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Game" />
-      <module name="Mehmon" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="MyAdventureMMO" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\bruger\Documents\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -120,9 +171,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwingAppManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyAdventureMMO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.bll.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.bll.game" />
+      <option name="MAIN_CLASS_NAME" value="com.company.bll.game.SwingAppManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.SwingAppManagerTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SwingAppManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +217,9 @@
       <workItem from="1616328398689" duration="13017000" />
       <workItem from="1616365036560" duration="272000" />
       <workItem from="1616365546308" duration="350000" />
+      <workItem from="1616402732759" duration="1840000" />
+      <workItem from="1616486044796" duration="9985000" />
+      <workItem from="1616507484092" duration="487000" />
     </task>
     <task id="LOCAL-00001" summary="added monsters + abilities + started on the game manager.">
       <created>1616364194946</created>
@@ -154,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616364194946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added monsters + abilities + started on the game manager.">
+      <created>1616366823252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616366823252</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

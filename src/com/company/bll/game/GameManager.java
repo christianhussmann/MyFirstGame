@@ -1,22 +1,25 @@
 package com.company.bll.game;
 
-import com.company.Game;
-import com.company.be.IMonster;
-import com.company.be.Monster;
-import com.company.be.MonsterAbility;
+import com.company.gui.SwingApp;
+import com.company.be.monster.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GameManager {
+    private List<MonsterAbility> monsterAbilities = new ArrayList<>();
 
 
     public void initializeGame() {
         //All Monsters have these abilities.
         MonsterAbility tackle = new MonsterAbility("Tackle", 5);
+        monsterAbilities.add(tackle);
 
         //CrystalMonster abilities.
         MonsterAbility sapphireDeflection = new MonsterAbility("SapphireDeflection",10);
         MonsterAbility bulletGems = new MonsterAbility("Bullet Gems",15);
         MonsterAbility diamondThrow = new MonsterAbility("Diamond Throw", 12);
-        //b
+
 
         //WindMonster abilities.
         MonsterAbility windBlow = new MonsterAbility("Wind Blow",7);
@@ -76,7 +79,7 @@ public class GameManager {
 
 
 
-        new Game();
+        new SwingApp();
         //All monsters implemented and have special hp and dmg, and maxHP.
         IMonster lightMonster = new Monster("Light Monster",1,20,100);
         IMonster shadowMonster = new Monster("Shadow Monster",1,20,100);
